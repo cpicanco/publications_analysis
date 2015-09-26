@@ -1,0 +1,89 @@
+index	oiposi	oinega	pname	nname	crposi	crnega	mlposi	mlnega	mdposi	mdnega	mfposi	mfnega	clposi	clnega	ctposi	ctnega	cfposi	cfnega	fbkposi	fbknega	pright	nright
+
+# frame_object
+# - 1-20 lines gives you the first session, 21-40 the second, and so on.
+# - 1-5 (6-10, and so on) gives you all the sample-comparison pairs (e.g., A1-B1 and A1-B2)
+#  from a single discriminative relation presented during the corresponding session.
+
+index
+From 1 upto the maximum number of trials presented during each stage (A^1, B^1, A^2 or B^2). Further,
+'index' is a unique indentifier assigned after ordering the session data (1-20, 21-40...) from A to Z by its "nname" or "pname". Each 'index' is associated with a positive AND a negative trial.
+
+Sessions were indexed (unique indentifier) after being ordered from A to Z by its "nname" or "pname".
+If you need the original occurence order of a trial inside a session, see "oiposi" or "oinega". 
+
+oiposi
+Original Index for Positive Relations
+Indicates the original order that the a positive trial was presented in a session.
+
+oinega
+Original Index for Negative Relations
+Indicates the original order that the a positive trial was presented in a session.
+
+pname
+Positive Name
+Name (tag) of the a positive trial.
+1-5 (6-10, and so on) trials gives you a pair of sample-comparison relations (e.g., A1-B1 and A1-B2).
+Hence, discriminative indexes for each relation can be calculated.
+
+nname
+Negative Name
+Name (tag) of the a negative trial.
+1-5 (6-10, and so on) trials gives you a pair of sample-comparison relations (e.g., A1-B1 and A1-B2).
+Hence, discriminative indexes for each relation can be calculated.
+
+crposi
+Response Rate on Positive Comparison
+Used as unit for learning criteria.
+
+crnega
+Response Rate of Negative Comparison
+Used as unit for learning criteria.
+
+mlposi
+Positive Sample Response Latency
+
+mlnega
+Negative Sample Response Latency
+
+mdposi
+Time between the first response on a positive sample and the sample removal.
+
+mdnega
+Time between the first response on a negative sample and the sample removal.
+
+mfposi
+Response Frequency to a Positive Sample.
+
+mfnega
+Response Frequency to a Negative Sample.
+
+clposi
+Positive comparison latency.
+
+clnega
+Negative comparison latency.
+
+ctposi
+Total time of presentation of a Positive Comparison.
+
+ctnega
+Total time of presentation of a Negative Comparison.
+
+cfposi
+Response frequency to a Positive Comparison.
+
+cfnega
+Response frequency to a Negative Comparison.
+
+fbkposi
+Response Frequency to the background during positive sample-comparison.
+
+fbknega
+Response Frequency to the background during negative sample-comparison.
+
+pright
+For positive trials "go" was a Correct response (TRUE) and "no-go" was an Incorrect response (FALSE).
+
+nright
+For negative trials "no-go" was a Correct response (TRUE) and "go" was an Incorrect response (FALSE).
