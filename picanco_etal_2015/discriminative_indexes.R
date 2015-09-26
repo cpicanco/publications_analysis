@@ -1,8 +1,8 @@
 source("load_frame_objects.R")
 
 discriminativeIndex <- function(frameObject) {
-# We must walk through the frame objects with an increment of 5
-# to calculate all the discriminative indexes of the corresponding stage (A^1, B^2, A^2 or B^2):
+  # We must walk through the frame objects with an increment of 5
+  # to calculate all the discriminative indexes of the corresponding stage (A^1, B^1, A^2 or B^2):
   incrementDI <- 5
   lengthDI <- (nrow(frameObject) / incrementDI)
   DI <- numeric(lengthDI)
