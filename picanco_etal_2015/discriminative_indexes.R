@@ -40,7 +40,7 @@ discriminativeIndexesMean <- function(DI) { # Just for graphication purposes...
     to <- to + incrementMDI
   }
   frameObjectName <- deparse(substitute(DI))
-  print(paste("MDI (Mean Discriminative Index) was added to the:",frameObjectName))
+  print(paste("MDI (Mean Discriminative Index) were created from:",frameObjectName))
   MDI
 }
 
